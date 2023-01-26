@@ -98,5 +98,9 @@
     "winston-daily-rotate-file": "^4.5.0",
     "xml-js": "^1.6.11",
     "xml2js": "^0.4.23"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "8.x"
   }
 }
