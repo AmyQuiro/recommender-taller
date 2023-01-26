@@ -9,7 +9,7 @@ export class GoogleRecommenderController {
   async createProduct(req: Request, res: Response): Promise<any> {
     try {
       let recom = new Recommender();
-      let response = await recom.createProduct();
+      let response = await recom.createProduct(req.body);
 
 
       let responseText = 'Transaccion realizada exitosamente';
@@ -20,6 +20,19 @@ export class GoogleRecommenderController {
       return new FailureMsgResponse(msg).send(res);
     }
   }
+  async createRecommendationForUser(req: Request, res: Response): Promise<any> {
+    try {
+      let recom = new Recommender();
+      let response = await recom.createRecommendationForUser(req.body);
 
+
+      let responseText = 'Transaccion realizada exitosamente';
+
+      return new SuccessResponse(responseText, response).send(res);
+    } catch (ex) {
+      let msg = ex.message ? ex.message : ex;
+      return new FailureMsgResponse(msg).send(res);
+    }
+  }
 
 }

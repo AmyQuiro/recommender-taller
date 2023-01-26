@@ -10,5 +10,11 @@ googleRecommederRoute.post(
         googleRecommenderController.createProduct(req, res);
     }),
 );
+googleRecommederRoute.post(
+    '/createRecommendationForUser',
+    asyncHandler(async (req, res) => {
+        googleRecommenderController.createRecommendationForUser(req, res);
+    }),
+);
 
 export { googleRecommederRoute };
