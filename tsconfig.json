@@ -25,10 +25,7 @@
   "include": [
     "src/*.ts",
     "src/**/*.ts",
-    "src/**/*.js",
-    "src/Infra/services/GatewayService/IIntegration.ts",
-    "src/Infra/database/sequelize/migrations/20210108164730-create-pay-order.ts",
-    "src/Infra/mask/mapper/naturaMap.ts"
+    "src/**/*.js"
   ],
   "exclude": [
     "node_modules",
