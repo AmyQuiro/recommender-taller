@@ -23,7 +23,7 @@ export class GoogleRecommenderController {
   async createRecommendationForUser(req: Request, res: Response): Promise<any> {
     try {
       let recom = new Recommender();
-      let response = await recom.createRecommendationForUser(req.body);
+      let response = await recom.setUserEvent(req.body);
 
 
       let responseText = 'Transaccion realizada exitosamente';
