@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:MultiPago">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:SetPaymentsConfirmation soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <user xsi:type="xsd:string">multipago@cesi.com</user>
+         <password xsi:type="xsd:string">Multipago123</password>
+         <office xsi:type="xsd:string">Virtual</office>
+         <operator xsi:type="xsd:string">Multipago_Client</operator>
+         <payer xsi:type="urn:payer">
+            <name xsi:type="xsd:string">?</name>
+            <id_number xsi:type="xsd:string">?</id_number>
+            <phone xsi:type="xsd:string">?</phone>
+            <email xsi:type="xsd:string">?</email>
+         </payer>
+         <contract_number xsi:type="xsd:string">?</contract_number>
+         <payments xsi:type="urn:payments">
+            <payment_identifier xsi:type="xsd:string">?</payment_identifier>
+            <type_of_payment xsi:type="xsd:int">?</type_of_payment>
+            <amount xsi:type="xsd:double">?</amount>
+            <receive_type_money xsi:type="xsd:int">?</receive_type_money>
+            <exchange_rate xsi:type="xsd:double">?</exchange_rate>
+            <multipago_amount xsi:type="xsd:double">?</multipago_amount>
+         </payments>
+         <nro_transaction xsi:type="xsd:string">?</nro_transaction>
+      </urn:SetPaymentsConfirmation>
+   </soapenv:Body>
+</soapenv:Envelope>

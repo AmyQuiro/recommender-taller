@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://www.lavitalicicaseguros.com/IntercambioDatos/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:setReciboPagoOnline>
+         <recibos>
+            <recibo>param_recibo</recibo>
+            <depto>param_depto</depto>
+            <fchrecibo>param_fchrecibo</fchrecibo>
+            <cobrador>param_cobrador</cobrador>
+            <codigoper>param_codigoper</codigoper>
+            <codigoconc>param_codigoconc</codigoconc>
+            <moneda>param_moneda</moneda>
+            <total>param_total</total>
+            <saldo>param_saldo</saldo>
+            <reciboimpreso>param_reciboimpreso</reciboimpreso>
+            <estado>param_estado</estado>
+            param_detalles
+            <pagos>
+               <recibo>param_recibo_pago</recibo>
+               <secuencialpago>param_secuencialpago</secuencialpago>
+               <tipopago>param_tipopago</tipopago>
+               <moneda>param_moneda_pago</moneda>
+               <pagoope>param_total_pago</pagoope>
+               <pagoorig>param_pagoorig</pagoorig>
+               <cheque>param_cheque</cheque>
+               <banco>param_banco</banco>
+               <tarjeta>param_tarjeta</tarjeta>
+               <autoriz>param_autoriz</autoriz>
+               <cuenta>param_cuenta</cuenta>
+               <estado>param_estado_pago</estado>
+            </pagos>
+         </recibos>
+      </int:setReciboPagoOnline>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://www.lavitalicicaseguros.com/IntercambioDatos/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getCobranzaxPersonaMc4>
+         <codigoper>param_codigoper</codigoper>
+         <poliza>param_poliza</poliza>
+      </int:getCobranzaxPersonaMc4>
+   </soapenv:Body>
+</soapenv:Envelope>

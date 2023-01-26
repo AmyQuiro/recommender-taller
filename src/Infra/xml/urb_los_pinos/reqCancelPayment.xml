@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <GetData.GetDataAnularPago soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <company xsi:type="xsd:integer">param_company</company>
+         <multipagoTransaction xsi:type="xsd:string">param_multipagoTransaction</multipagoTransaction>
+         <comerceTransaction xsi:type="xsd:string">param_comerceTransaction</comerceTransaction>
+         <reason xsi:type="xsd:string">param_reason</reason>
+         <user xsi:type="xsd:string">param_user</user>
+      </GetData.GetDataAnularPago>
+   </soapenv:Body>
+</soapenv:Envelope>

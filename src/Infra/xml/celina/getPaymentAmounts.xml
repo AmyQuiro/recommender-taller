@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:MultiPago">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:GetPaymentAmounts soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <user xsi:type="xsd:string">multipago@cesi.com</user>
+         <password xsi:type="xsd:string">Multipago123</password>
+         <office xsi:type="xsd:string">Virtual</office>
+         <operator xsi:type="xsd:string">Multipago_Client</operator>
+         <search_type xsi:type="xsd:int">1</search_type>
+         <search_field xsi:type="xsd:string">C1500500009</search_field>
+      </urn:GetPaymentAmounts>
+   </soapenv:Body>
+</soapenv:Envelope>

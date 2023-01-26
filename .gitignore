@@ -1,0 +1,29 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+#vs code
+/.vscode
+
+#files
+/upload
+
+# dependencies
+/node_modules
+
+# ignore logs
+logs
+*.log
+
+# ignore key
+*.pem
+
+# Ignore built files
+dist
+
+# ignore test converage
+coverage
+
+# Environment varibles
+*.env
+*.env.*
+*.env_diego
+
+**/node_modules

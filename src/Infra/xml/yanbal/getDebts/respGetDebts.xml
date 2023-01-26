@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <a:consultarObligacionConsultoraResponse xmlns:a="http://to.coblcnscpt.ws.corp.yanbal.com" xmlns:b="http://to.comun.ws.corp.yanbal.com" xmlns:c="http://to.entity.ws.corp.yanbal.com" xmlns:d="http://to.ercdrpt.ws.corp.yanbal.com" xmlns:e="http://to.rrcdrpt.ws.corp.yanbal.com">
+         <a:integracionWSResp>
+            <a:cabecera>
+               <b:codigoInterfaz>COBLCNSCPT</b:codigoInterfaz>
+               <b:usuarioAplicacion>USR_BANCO</b:usuarioAplicacion>
+               <b:codigoAplicacion>STS</b:codigoAplicacion>
+               <b:codigoPais>BO</b:codigoPais>
+               <b:codigosPaisOD>
+                  <b:codigoPaisOD>
+                     <b:valor>BO</b:valor>
+                  </b:codigoPaisOD>
+               </b:codigosPaisOD>
+               <b:idTransaccion></b:idTransaccion>
+            </a:cabecera>
+            <detalle>
+               <a:respuesta>
+                  <b:codigoRespuesta>0000</b:codigoRespuesta>
+                  <b:mensajeRespuesta>Operacion ejecutada con exito</b:mensajeRespuesta>
+               </a:respuesta>
+               <a:datos>
+                  <c:consultora>
+                     <c:codConsultora>144995538</c:codConsultora>
+                     <c:nomConsultora>Nicolasa Flores .</c:nomConsultora>
+                     <c:tipoDocumento>1</c:tipoDocumento>
+                     <c:numDocumento>4280306</c:numDocumento>
+                  </c:consultora>
+                  <c:deudas>
+                     <c:deuda>
+                        <c:montoTotal>315.2540000000000190993887372314929962158203125</c:montoTotal>
+                        <c:fecVencimiento>2015-01-06-06:00</c:fecVencimiento>
+                        <c:codMoneda>BOB</c:codMoneda>
+                     </c:deuda>
+                  </c:deudas>
+                  <c:msjPago>Pendiente aplicar Pago(s):- 20.15 USD- 55.05 BOL</c:msjPago>
+               </a:datos>
+            </detalle>
+         </a:integracionWSResp>
+      </a:consultarObligacionConsultoraResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

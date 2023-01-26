@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:urn="urn:wsguabira">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <urn:search_associate_by_code soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <username xsi:type="xsd:string">?</username>
+            <password xsi:type="xsd:string">?</password>
+            <institution xsi:type="xsd:int">?</institution>
+            <search_code xsi:type="xsd:string">?</search_code>
+            <search_identification xsi:type="xsd:string">?</search_identification>
+        </urn:search_associate_by_code>
+    </soapenv:Body>
+</soapenv:Envelope

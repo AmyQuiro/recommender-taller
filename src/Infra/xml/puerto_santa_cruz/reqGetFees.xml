@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <GetData.GetDataObtenerCuotas soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <company xsi:type="xsd:integer">param_company</company>
+         <contractCode xsi:type="xsd:integer">param_contractCode</contractCode>
+      </GetData.GetDataObtenerCuotas>
+   </soapenv:Body>
+</soapenv:Envelope>

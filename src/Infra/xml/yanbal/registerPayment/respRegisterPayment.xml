@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <e:registrarRecaudoResponse xmlns:a="http://to.coblcnscpt.ws.corp.yanbal.com" xmlns:b="http://to.comun.ws.corp.yanbal.com" xmlns:c="http://to.entity.ws.corp.yanbal.com" xmlns:d="http://to.ercdrpt.ws.corp.yanbal.com" xmlns:e="http://to.rrcdrpt.ws.corp.yanbal.com">
+         <e:integracionWSResp>
+            <e:cabecera>
+               <b:codigoInterfaz>RRCDRPT</b:codigoInterfaz>
+               <b:usuarioAplicacion>param_usuarioAplicacion</b:usuarioAplicacion>
+               <b:codigoAplicacion>STS</b:codigoAplicacion>
+               <b:codigoPais>BO</b:codigoPais>
+               <b:codigosPaisOD>
+                  <b:codigoPaisOD>
+                     <b:valor></b:valor>
+                  </b:codigoPaisOD>
+               </b:codigosPaisOD>
+               <b:idTransaccion></b:idTransaccion>
+            </e:cabecera>
+            <detalle>
+               <e:respuesta>
+                  <b:codigoRespuesta>0000</b:codigoRespuesta>
+                  <b:mensajeRespuesta>Operacion ejecutada con exito</b:mensajeRespuesta>
+               </e:respuesta>
+            </detalle>
+         </e:integracionWSResp>
+      </e:registrarRecaudoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

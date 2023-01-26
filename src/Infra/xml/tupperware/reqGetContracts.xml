@@ -1,0 +1,12 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:buscarPromotor>
+         <tem:codigo>param_codigo</tem:codigo>
+         <tem:ci>param_ci</tem:ci>
+         <tem:nombre>param_nombre</tem:nombre>
+         <tem:usr>param_user</tem:usr>
+         <tem:psw>param_password</tem:psw>
+      </tem:buscarPromotor>
+   </soap:Body>
+</soap:Envelope>

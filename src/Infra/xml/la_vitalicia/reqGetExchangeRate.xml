@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://www.lavitalicicaseguros.com/IntercambioDatos/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getTipoCambio>
+         <fecha>param_date</fecha>
+      </int:getTipoCambio>
+   </soapenv:Body>
+</soapenv:Envelope>

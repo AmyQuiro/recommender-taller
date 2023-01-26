@@ -1,0 +1,12 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:registrarPago>
+         <tem:listaPagos>
+            param_listaPagos          
+         </tem:listaPagos>
+         <tem:usr>param_user</tem:usr>
+         <tem:psw>param_password</tem:psw>
+      </tem:registrarPago>
+   </soap:Body>
+</soap:Envelope>

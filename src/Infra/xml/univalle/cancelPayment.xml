@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TransaccionAnular
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CodigoControl>param_CodigoControl</CodigoControl>
+	<CodigoEstudiante>param_CodigoEstudiante</CodigoEstudiante>
+	<CodigoGestion>param_CodigoGestion  </CodigoGestion>
+	<CuentaBanco>param_CuentaBanco </CuentaBanco>
+	<FechaTransaccion>param_FechaTransaccion</FechaTransaccion>
+	<NumeroFactura>param_NumeroFactura </NumeroFactura>
+	<NumeroOrden>param_NumeroOrden </NumeroOrden>
+	<PuntoEmision>param_PuntoEmision </PuntoEmision>
+</TransaccionAnular>

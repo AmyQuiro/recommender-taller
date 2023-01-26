@@ -1,0 +1,10 @@
+netstat -ano|findstr ":9229"
+
+Proto Local Address Foreign Address State PID
+TCP 0.0.0.0:9229    0.0.0.0:0   LISTENING    29164
+
+taskkill /pid 18480 /f
+127.0.0.1:65250 
+
+Cuando de el error : "dotenv" no se reconoce como un comando interno o externo, programa o archivo por lotes ejecutable.
+Ejecutar => npm i -g dotenv-cli

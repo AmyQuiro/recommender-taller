@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <GetData.GetDataObtenerContratos soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <searchType xsi:type="xsd:integer">param_searchType</searchType>
+         <searchField xsi:type="xsd:string">param_searchField</searchField>
+      </GetData.GetDataObtenerContratos>
+   </soapenv:Body>
+</soapenv:Envelope>

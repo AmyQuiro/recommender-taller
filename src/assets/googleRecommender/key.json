@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "recomendacionfashionmonica",
+  "private_key_id": "91b4741821c6816fe7e7ebe20be37cb9332431ba",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCStKRW0VwlYV+y\nF7+VzBWmh82uz1AMiMvKgdgJp9wbV5qhyGqUZI2JdcXZwornf083ofIogRzXaJ2A\nUSdgFryAeeyBKsxQGcYthW2R67RYgsFvWZpQwJ9LZN0SVbIqihDv5SscAvzMlWGR\nZCfwHFdmxeQQcL94zTBTldEiifm2O87cYCkuS6Ij31nW43zNyLT/suPRsHS619gv\nvIjLWai0kFhwf1IJw95kSa2I+VKmAPQ3csorLyg2uw0hmgrID/u8gCZ6ytRLGgxA\nB2xJ9czZ8cLSvnhEl2gRO08Z/ktzUqxUzEDyZwanFgB8nAciAyzd0VydPrruC189\n9Y58uRoRAgMBAAECggEABG7ReKSMhPcUUlZdCLD+fyYxds1+FByog1CVpJ9FPU0n\naWJi+9V1UoGbBVwsrt6cUQFOHC2LAyt+sC7Y6ZKLowwvpR5pVUPWjeF2TUdoDyac\nv5XDCKlKP9CuIhPACvJ2gKoWAMYuHQEZ3FqkAoUURQLkxAKheu/O9aFjcGwDb+Z0\nsNOE3IdwcvQih0y7WtW+R80A51+gWN9GBhAnBZSsUM/l1rYW0618Z942P8jd/+Ff\nV89pBMD4TvPoydF0MJ7tZvvWdcZNgEWJ2qNsIdbj0gELd3P+s19rUPo+b5kMe6V0\n61jp0ubR9X40VOMfa440TNQLFPHajZkaRIrjSttVIwKBgQDIhT0iBJEsDLw+iuBE\nWKpdOZYRXec1rgQp9axEmU1Qdnp62zfFERg3g/IQhZOhdXuts16xKfWzwCHHDZCv\nRTEPRPUywXKMjs2iQYI2Ph2b7lK6wpBD1QFeeCxmagS999pFc0qtsQv0/RHIJ/kN\nJsHczL0k8bGi0WmarMInE678kwKBgQC7S7nyR2axrajbqpCiZZBrje1x9RXzFG5q\nF2UnLdfYAtI8P5nmpXpHl0lp8z6QbBqm/vbs3W5gs48+zWKikRjvtdf/+emQVdQo\naif56CW+FKPrQ5CkXnpDFpc0WRUkczYykHVHd3tRzSh5vwV1YUP9HkyzW+IUCerN\nzHtd4IJZSwKBgQC9xyyGp5/l+t+mqbV7uhbzSG85XJBZA6s5MySpgBXmU1u0Lwnn\nXzh2QlC1Rlbk9tXpHdw+/KFoUC0nwTTwTSITe4Y9VUzersD8Edf1EnDfhX2S+FWl\nfVFgYYhUHX8DdDKGjIlfPjM82M8diodx5P6RxMw2zPD8UgoKs/rFFSIGNQKBgFQy\nDYwJZvPWokLlYRFv4MVIzwXcbBqTA7OzgqhjJlWXpxSobrHNj7OhIcJ8M5LO1ghe\nM3h1bkoQTgOoZn+4BGK19zy+Bq34t1/XoNLp9hWFx85Z2CrbwdBo1l4U8bkqBaIj\naGVRI+G4/UoFghmrONoPheFXG8FwV9pd4tNnupETAoGALncKzxAgva17q8Kug7sS\nfPG2hoHuIpKjO/uEWWsLRElw+RWrMWecIL09+O7Hc7vqlier4Ula/J7jUv7lwN4Q\nKCROj+ON2SlUFLEIhOh4uk8kzwVsku4SWYd6DnUuNvKr4PMejTU6zrRJ0pL79a7Y\n7DtPa2Mx1vs90BcoUNHQ0Gs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-recomendacion@recomendacionfashionmonica.iam.gserviceaccount.com",
+  "client_id": "100347719094291097169",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-recomendacion%40recomendacionfashionmonica.iam.gserviceaccount.com"
+}

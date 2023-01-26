@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://www.lavitalicicaseguros.com/IntercambioDatos/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:setReciboAnulado>
+         <nrorecibo>param_recibo</nrorecibo>
+      </int:setReciboAnulado>
+   </soapenv:Body>
+</soapenv:Envelope>

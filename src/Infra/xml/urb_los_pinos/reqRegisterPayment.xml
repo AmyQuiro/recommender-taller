@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <GetData.GetDataConfirmarPago soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <payer xsi:type="urn:payer" xmlns:urn="urn:wsOrange">
+            <name xsi:type="xsd:string">param_name</name>
+            <idNumber xsi:type="xsd:string">param_idNumber</idNumber>
+            <phone xsi:type="xsd:string">param_phone</phone>
+            <email xsi:type="xsd:string">param_email</email>
+         </payer>
+         <company xsi:type="xsd:integer">param_company</company>
+         <contractCode xsi:type="xsd:string">param_contractCode</contractCode>
+         <paymentDetails xsi:type="urn:paymentDetails" xmlns:urn="urn:wsOrange">
+            param_items
+         </paymentDetails>
+         <transactionNumber xsi:type="xsd:string">param_transactionNumber</transactionNumber>
+         <currency xsi:type="xsd:string">param_currency</currency>
+         <exchangeRate xsi:type="xsd:decimal">param_exchangeRate</exchangeRate>
+         <feeType xsi:type="xsd:string">param_feeType</feeType>
+         <dateToPay xsi:type="xsd:date">param_dateToPay</dateToPay>
+         <hourToPay xsi:type="xsd:time">param_hourToPay</hourToPay>
+
+      </GetData.GetDataConfirmarPago>
+   </soapenv:Body>
+</soapenv:Envelope>

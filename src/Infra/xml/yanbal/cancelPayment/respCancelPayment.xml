@@ -1,0 +1,40 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:to="http://to.ercdrpt.ws.corp.yanbal.com" xmlns:to1="http://to.comun.ws.corp.yanbal.com" xmlns:to2="http://to.entity.ws.corp.yanbal.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <to:eliminarRecaudoRequest>
+         <to:integracionWSReq>
+            <to:cabecera>
+               <to1:codigoInterfaz>ERCDRPT</to1:codigoInterfaz>
+               <to1:usuarioAplicacion>USR_BANCO</to1:usuarioAplicacion>
+               <to1:codigoAplicacion>STS</to1:codigoAplicacion>
+               <to1:codigoPais>BO</to1:codigoPais>
+               <to1:codigosPaisOD>
+                  <!--1 to 20 repetitions:-->
+                  <to1:codigoPaisOD>
+                     <to1:valor>BO</to1:valor>
+                  </to1:codigoPaisOD>
+               </to1:codigosPaisOD>
+            </to:cabecera>
+            <detalle>
+               <to:parametros>
+                  <to2:idBanco>SINTESIS</to2:idBanco>
+                  <to2:idToken>1223ASSD4085830</to2:idToken>
+                  <to2:consultora>
+                     <to2:codConsultora>12345</to2:codConsultora>
+                     <to2:tipoDocumento>1</to2:tipoDocumento>
+                     <to2:numDocumento>12345676890</to2:numDocumento>
+                  </to2:consultora>
+                  <to2:recaudo>
+                     <to2:fecTransaccion>2015-01-06T00:00:00.000-09:00</to2:fecTransaccion>
+                     <to2:numCuenta>1234567890</to2:numCuenta>
+                     <to2:numOperacion>1234567890</to2:numOperacion>
+                     <to2:canalRecaudo>CAJERO</to2:canalRecaudo>
+                     <to2:montoRecaudo>55.55</to2:montoRecaudo>
+                     <to2:codMoneda>USD</to2:codMoneda>
+                  </to2:recaudo>
+               </to:parametros>
+            </detalle>
+         </to:integracionWSReq>
+      </to:eliminarRecaudoRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

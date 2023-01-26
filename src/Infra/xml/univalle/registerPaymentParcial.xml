@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TransaccionDiferenciado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CodigoEstudiante>param_CodigoEstudiante</CodigoEstudiante>
+  <CodigoGestion>param_CodigoGestion</CodigoGestion>
+  <CodigoSedeAcademica>param_CodigoSedeAcademica</CodigoSedeAcademica>
+  <NumeroFactura>param_NumeroFactura</NumeroFactura>
+  <NombreFactura>param_NombreFactura</NombreFactura>
+  <PuntoEmision>param_PuntoEmision</PuntoEmision>
+  <Ruc>param_Ruc</Ruc>
+  <CuentaBanco>param_CuentaBanco</CuentaBanco>
+  <FechaTransaccion>param_FechaTransaccion</FechaTransaccion>
+  <MontoACancelar>param_MontoACancelar</MontoACancelar>
+
+  <CodigoUnicoFactura>param_CodigoUnicoFactura</CodigoUnicoFactura>
+  <CodigoUnicoFacturaDiario>param_CodigoUnicoFacturaDiario</CodigoUnicoFacturaDiario>
+  <FechaEmisionSIN>param_FechaEmisionSIN</FechaEmisionSIN>
+  <Complemento>param_Complemento</Complemento>
+  <PeriodoFactura>param_PeriodoFactura</PeriodoFactura>
+  <CodigoExcepcion>param_CodigoExcepcion</CodigoExcepcion>
+  <CodigoDocumentoSector>param_CodigoDocumentoSector</CodigoDocumentoSector>
+  <CodigoRecepcionFactura>param_CodigoRecepcionFactura</CodigoRecepcionFactura>
+
+  <NumeroTarjeta>param_NumeroTarjeta</NumeroTarjeta>
+  <CorreoPersonal>param_CorreoPersonal</CorreoPersonal>
+  <Leyenda2>param_Leyenda2</Leyenda2>
+  <TipoDocumentoIdentidad>param_TipoDocumentoIdentidad</TipoDocumentoIdentidad>
+  <CodigoActividadEconomica>param_CodigoActividadEconomica</CodigoActividadEconomica>
+  <CodigoProductoSIN>param_CodigoProductoSIN</CodigoProductoSIN>
+  <CodigoUnidadMedida>param_CodigoUnidadMedida</CodigoUnidadMedida>
+</TransaccionDiferenciado>
