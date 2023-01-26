@@ -19,7 +19,7 @@
     "start:debug": "cross-env NODE_ENV=development nodemon --inspect ./src/index.ts",
     "prestart": "npm run migrate:prod",
     "start": "node dist/index.js",
-    "postinstall": "tsc && mkdir -p public && mv -i -v public dist/ && rm -v -rf src",
+    "postinstall": "tsc && mv -i -v public dist/ && rm -v -rf src",
     "watch-node": "nodemon dist/index.js",
     "watch-ts": "tsc -w",
     "deploy": "git add . && git commit -m Heroku && git push heroku main",
@@ -100,7 +100,7 @@
     "xml2js": "^0.4.23"
   },
   "engines": {
-    "node": "18.x",
+    "node": "12.16.3",
     "npm": "8.x"
   }
 }
