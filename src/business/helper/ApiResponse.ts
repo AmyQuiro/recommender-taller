@@ -23,7 +23,7 @@ abstract class ApiResponse {
     protected statusCode: StatusCode,
     protected status: ResponseStatus,
     protected message: string,
-  ) {}
+  ) { }
 
   protected prepare<T extends ApiResponse>(
     res: Response,
